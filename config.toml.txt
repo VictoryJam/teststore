@@ -1,0 +1,30 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#E694FF"
+backgroundColor = "#00172B"
+secondaryBackgroundColor = "#0083B8"
+textColor= "#DCDCDC"
+font = "sans serif"
+
+[deprecation]
+showfileUploaderEncoding = false
+
+[global]
+developmentMode = false
+disableWatchdogWarning = false
+showWarningOnDirectExecution = true
+
+[runner]
+magicEnabled = false
+installTrustedPackages = false
+fixMatplotlib = true
+objectIsNotCallable = true
+
+[client]
+displayEnabled = false
