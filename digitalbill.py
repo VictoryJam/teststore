@@ -7,7 +7,7 @@ import os
 class PDF(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 12)
-        self.cell(0, 10, 'Victory Jam "electronic bill"', 0, 1, 'C')
+        self.cell(0, 10, 'testApp "electronic bill"', 0, 1, 'C')
         self.cell(0, 10, '---------------------------------------------------------------', 0, 1, 'C')
 
 
